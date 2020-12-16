@@ -1,0 +1,29 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "webpack原理学习项目",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "node bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewmanGo/mini-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "newman"
+  ],
+  "author": "newman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NewmanGo/mini-webpack/issues"
+  },
+  "homepage": "https://github.com/NewmanGo/mini-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/parser": "^7.12.11",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/traverse": "^7.12.10"
+  }
+}
